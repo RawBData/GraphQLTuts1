@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
-//posts
+//posts schema that is added to the backend
 const PostSchema = new Schema({
   title: {
     type: String,
