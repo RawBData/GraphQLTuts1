@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
-//posts schema that is added to the backend that can be acccessed through GraphQL
+//posts schema that is added to the backend that can be acccessed through GraphQL 
+//make sure to set types based on already built in settings
 const PostSchema = new Schema({
   title: {
     type: String,
