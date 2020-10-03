@@ -1,3 +1,7 @@
+/*
+Currently build so you can read data at localhost:5000/graphql
+*/
+
 const express = require("express");
 const bodyParser = require("body-parser")
 const mongoose = require('mongoose');
