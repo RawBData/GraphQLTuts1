@@ -6,6 +6,8 @@ const Post = mongoose.model("post");
 const UserType = require("./user_type");
 const PostType = require("./post_type");
 
+//The object below will be passed into schema
+//Each object in the field can be queried
 const RootQuery = new GraphQLObjectType({
     name: "RootQueryType",
     fields: {
