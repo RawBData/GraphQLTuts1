@@ -8,7 +8,7 @@ const PostType = require("./post_type");
 
 //The object below will be passed into schema
 //Each object in the field can be queried
-//Be Specific on the query
+//Be Specific on the query with the different field you want returned
 const RootQuery = new GraphQLObjectType({
     name: "RootQueryType",
     fields: {
